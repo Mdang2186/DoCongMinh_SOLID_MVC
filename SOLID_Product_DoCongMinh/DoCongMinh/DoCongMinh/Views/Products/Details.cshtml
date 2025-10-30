@@ -1,0 +1,59 @@
+﻿@model DoCongMinh.Models.Product
+
+@{
+    ViewData["Title"] = "Chi tiết Sản phẩm";
+}
+
+<!-- Page Header (Tiêu đề trang) -->
+<div class="page-header fade-in-up">
+    <h1>@ViewData["Title"]</h1>
+    <p>Xem thông tin chi tiết của sản phẩm.</p>
+</div>
+
+<!-- Main Content Card (Thẻ nội dung chính) -->
+<div class="demo-card fade-in-up" style="animation-delay: 0.1s;">
+
+    <h3 style="color: var(--ocean-primary);">
+        <i class="fa-solid fa-box-open me-2"></i>
+        @Html.DisplayFor(model => model.Name)
+    </h3>
+    <hr />
+
+    <dl class="row" style="font-size: 1.1rem;">
+        <dt class="col-sm-3 col-md-2">
+            Mô tả
+        </dt>
+        <dd class="col-sm-9 col-md-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+        <dt class="col-sm-3 col-md-2">
+            Giá
+        </dt>
+        <dd class="col-sm-9 col-md-10 fw-bold" style="color: var(--ocean-secondary);">
+            @String.Format("{0:N0} VNĐ", Model.Price)
+        </dd>
+
+        <!-- *** MỚI: Thêm Tồn kho *** -->
+        <dt class="col-sm-3 col-md-2">
+            Tồn kho
+        </dt>
+        <dd class="col-sm-9 col-md-10">
+            <span class="badge @(Model.Stock > 0 ? "bg-success-subtle text-success-emphasis" : "bg-danger-subtle text-danger-emphasis")"
+                  style="font-size: 1rem; padding: 0.4em 0.8em;">
+                @Html.DisplayFor(model => model.Stock)
+            </span>
+        </dd>
+    </dl>
+
+    <hr />
+
+    <div>
+        <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-ocean btn-lg me-2">
+            <i class="fa-solid fa-pencil me-2"></i> Sửa
+        </a>
+        <a asp-action="Index" class="btn btn-ocean-outline btn-lg">
+            <i class="fa-solid fa-arrow-left me-2"></i> Quay lại Danh sách
+        </a>
+    </div>
+</div>

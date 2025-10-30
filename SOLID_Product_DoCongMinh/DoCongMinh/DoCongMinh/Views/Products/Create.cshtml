@@ -1,0 +1,67 @@
+﻿@model DoCongMinh.Models.Product
+
+@{
+    ViewData["Title"] = "Tạo Sản phẩm mới";
+}
+
+<!-- Page Header (Tiêu đề trang) -->
+<div class="page-header fade-in-up">
+    <h1>@ViewData["Title"]</h1>
+    <p>Vui lòng điền đầy đủ thông tin sản phẩm bên dưới.</p>
+</div>
+
+<!-- Main Content Card (Thẻ nội dung chính) -->
+<div class="demo-card fade-in-up" style="animation-delay: 0.1s;">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="Name" class="control-label">Tên sản phẩm</label>
+                    <input asp-for="Name" class="form-control form-control-lg" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+
+                <!-- *** MỚI: Thêm Tồn kho *** -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group mb-3">
+                            <label asp-for="Price" class="control-label">Giá (VNĐ)</label>
+                            <input asp-for="Price" class="form-control" type="number" step="1000" min="0" />
+                            <span asp-validation-for="Price" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group mb-3">
+                            <label asp-for="Stock" class="control-label">Tồn kho</label>
+                            <input asp-for="Stock" class="form-control" type="number" step="1" min="0" />
+                            <span asp-validation-for="Stock" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="Description" class="control-label">Mô tả</label>
+                    <textarea asp-for="Description" class="form-control" rows="3"></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+
+                <hr class="my-4" />
+
+                <div class="form-group text-end">
+                    <input type="submit" value="Tạo" class="btn btn-ocean btn-lg me-2" />
+                    <a asp-action="Index" class="btn btn-ocean-outline btn-lg">
+                        <i class="fa-solid fa-arrow-left me-2"></i> Quay lại
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

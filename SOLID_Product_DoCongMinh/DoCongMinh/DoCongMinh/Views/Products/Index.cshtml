@@ -1,0 +1,69 @@
+﻿@model IEnumerable<DoCongMinh.Models.Product>
+
+@{
+    ViewData["Title"] = "Danh sách Sản phẩm";
+}
+
+<!-- Page Header (Tiêu đề trang) -->
+<div class="page-header fade-in-up">
+    <h1>@ViewData["Title"]</h1>
+    <p>Quản lý tất cả sản phẩm trong hệ thống của bạn.</p>
+</div>
+
+<!-- Nút Tạo mới -->
+<div class="mb-4 fade-in-up" style="animation-delay: 0.1s;">
+    <a asp-action="Create" class="btn btn-ocean">
+        <i class="fa-solid fa-plus me-2"></i> Tạo mới Sản phẩm
+    </a>
+</div>
+
+<!-- Lưới sản phẩm dạng thẻ -->
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-lg-4 col-md-6 mb-4 fade-in-up" style="animation-delay: 0.2s;">
+            <div class="demo-card h-100 d-flex flex-column">
+
+                <!-- Phần nội dung thẻ -->
+                <div class="flex-grow-1">
+
+                    <!-- Tên sản phẩm -->
+                    <h3 style="color: var(--ocean-primary);">
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </h3>
+
+                    <!-- Giá sản phẩm -->
+                    <h5 class-="mb-2" style="color: var(--ocean-secondary); font-weight: 600;">
+                        @String.Format("{0:N0} VNĐ", item.Price)
+                    </h5>
+
+                    <!-- *** MỚI: Thêm Tồn kho *** -->
+                    <div class="mb-3">
+                        <span class="badge @(item.Stock > 0 ? "bg-success-subtle text-success-emphasis" : "bg-danger-subtle text-danger-emphasis")"
+                              style="font-size: 0.9rem; padding: 0.4em 0.8em;">
+                            Tồn kho: @Html.DisplayFor(modelItem => item.Stock)
+                        </span>
+                    </div>
+
+                    <!-- Mô tả -->
+                    <p class="text-secondary">
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </p>
+                </div>
+
+                <!-- Phần chân thẻ chứa nút bấm -->
+                <div class="mt-4 border-top pt-3">
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-ocean-outline me-1">
+                        <i class="fa-solid fa-pencil"></i> Sửa
+                    </a>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-ocean-outline me-1">
+                        <i class="fa-solid fa-eye"></i> Chi tiết
+                    </a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">
+                        <i class="fa-solid fa-trash"></i> Xóa
+                    </a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
