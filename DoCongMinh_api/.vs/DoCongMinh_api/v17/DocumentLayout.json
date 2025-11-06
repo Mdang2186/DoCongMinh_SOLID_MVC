@@ -1,0 +1,231 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\6. L\u1EACP TR\u00CCNH \u1EE8NG D\u1EE4NG DOANH NGHI\u1EC6P TRONG .NET\\SOLID_Product_DoCongMinh\\DoCongMinh_api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CAB9D247-7B25-48E3-BFD5-B5E602E7E0AB}|DoCongMinh_api\\DoCongMinh_api.csproj|d:\\6. l\u1EADp tr\u00ECnh \u1EE9ng d\u1EE5ng doanh nghi\u1EC7p trong .net\\solid_product_docongminh\\docongminh_api\\docongminh_api\\validators\\productupdatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAB9D247-7B25-48E3-BFD5-B5E602E7E0AB}|DoCongMinh_api\\DoCongMinh_api.csproj|solutionrelative:docongminh_api\\validators\\productupdatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAB9D247-7B25-48E3-BFD5-B5E602E7E0AB}|DoCongMinh_api\\DoCongMinh_api.csproj|d:\\6. l\u1EADp tr\u00ECnh \u1EE9ng d\u1EE5ng doanh nghi\u1EC7p trong .net\\solid_product_docongminh\\docongminh_api\\docongminh_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAB9D247-7B25-48E3-BFD5-B5E602E7E0AB}|DoCongMinh_api\\DoCongMinh_api.csproj|solutionrelative:docongminh_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAB9D247-7B25-48E3-BFD5-B5E602E7E0AB}|DoCongMinh_api\\DoCongMinh_api.csproj|d:\\6. l\u1EADp tr\u00ECnh \u1EE9ng d\u1EE5ng doanh nghi\u1EC7p trong .net\\solid_product_docongminh\\docongminh_api\\docongminh_api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAB9D247-7B25-48E3-BFD5-B5E602E7E0AB}|DoCongMinh_api\\DoCongMinh_api.csproj|solutionrelative:docongminh_api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAB9D247-7B25-48E3-BFD5-B5E602E7E0AB}|DoCongMinh_api\\DoCongMinh_api.csproj|d:\\6. l\u1EADp tr\u00ECnh \u1EE9ng d\u1EE5ng doanh nghi\u1EC7p trong .net\\solid_product_docongminh\\docongminh_api\\docongminh_api\\validators\\productcreatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAB9D247-7B25-48E3-BFD5-B5E602E7E0AB}|DoCongMinh_api\\DoCongMinh_api.csproj|solutionrelative:docongminh_api\\validators\\productcreatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAB9D247-7B25-48E3-BFD5-B5E602E7E0AB}|DoCongMinh_api\\DoCongMinh_api.csproj|d:\\6. l\u1EADp tr\u00ECnh \u1EE9ng d\u1EE5ng doanh nghi\u1EC7p trong .net\\solid_product_docongminh\\docongminh_api\\docongminh_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CAB9D247-7B25-48E3-BFD5-B5E602E7E0AB}|DoCongMinh_api\\DoCongMinh_api.csproj|solutionrelative:docongminh_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAB9D247-7B25-48E3-BFD5-B5E602E7E0AB}|DoCongMinh_api\\DoCongMinh_api.csproj|d:\\6. l\u1EADp tr\u00ECnh \u1EE9ng d\u1EE5ng doanh nghi\u1EC7p trong .net\\solid_product_docongminh\\docongminh_api\\docongminh_api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAB9D247-7B25-48E3-BFD5-B5E602E7E0AB}|DoCongMinh_api\\DoCongMinh_api.csproj|solutionrelative:docongminh_api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAB9D247-7B25-48E3-BFD5-B5E602E7E0AB}|DoCongMinh_api\\DoCongMinh_api.csproj|d:\\6. l\u1EADp tr\u00ECnh \u1EE9ng d\u1EE5ng doanh nghi\u1EC7p trong .net\\solid_product_docongminh\\docongminh_api\\docongminh_api\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAB9D247-7B25-48E3-BFD5-B5E602E7E0AB}|DoCongMinh_api\\DoCongMinh_api.csproj|solutionrelative:docongminh_api\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAB9D247-7B25-48E3-BFD5-B5E602E7E0AB}|DoCongMinh_api\\DoCongMinh_api.csproj|d:\\6. l\u1EADp tr\u00ECnh \u1EE9ng d\u1EE5ng doanh nghi\u1EC7p trong .net\\solid_product_docongminh\\docongminh_api\\docongminh_api\\mappings\\productmappingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAB9D247-7B25-48E3-BFD5-B5E602E7E0AB}|DoCongMinh_api\\DoCongMinh_api.csproj|solutionrelative:docongminh_api\\mappings\\productmappingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAB9D247-7B25-48E3-BFD5-B5E602E7E0AB}|DoCongMinh_api\\DoCongMinh_api.csproj|d:\\6. l\u1EADp tr\u00ECnh \u1EE9ng d\u1EE5ng doanh nghi\u1EC7p trong .net\\solid_product_docongminh\\docongminh_api\\docongminh_api\\dtos\\productupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAB9D247-7B25-48E3-BFD5-B5E602E7E0AB}|DoCongMinh_api\\DoCongMinh_api.csproj|solutionrelative:docongminh_api\\dtos\\productupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAB9D247-7B25-48E3-BFD5-B5E602E7E0AB}|DoCongMinh_api\\DoCongMinh_api.csproj|d:\\6. l\u1EADp tr\u00ECnh \u1EE9ng d\u1EE5ng doanh nghi\u1EC7p trong .net\\solid_product_docongminh\\docongminh_api\\docongminh_api\\dtos\\productqueryparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAB9D247-7B25-48E3-BFD5-B5E602E7E0AB}|DoCongMinh_api\\DoCongMinh_api.csproj|solutionrelative:docongminh_api\\dtos\\productqueryparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAB9D247-7B25-48E3-BFD5-B5E602E7E0AB}|DoCongMinh_api\\DoCongMinh_api.csproj|d:\\6. l\u1EADp tr\u00ECnh \u1EE9ng d\u1EE5ng doanh nghi\u1EC7p trong .net\\solid_product_docongminh\\docongminh_api\\docongminh_api\\dtos\\productcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAB9D247-7B25-48E3-BFD5-B5E602E7E0AB}|DoCongMinh_api\\DoCongMinh_api.csproj|solutionrelative:docongminh_api\\dtos\\productcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\6. L\u1EACP TR\u00CCNH \u1EE8NG D\u1EE4NG DOANH NGHI\u1EC6P TRONG .NET\\SOLID_Product_DoCongMinh\\DoCongMinh_api\\DoCongMinh_api\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "DoCongMinh_api\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\6. L\u1EACP TR\u00CCNH \u1EE8NG D\u1EE4NG DOANH NGHI\u1EC6P TRONG .NET\\SOLID_Product_DoCongMinh\\DoCongMinh_api\\DoCongMinh_api\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "DoCongMinh_api\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T14:02:49.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductUpdateDtoValidator.cs",
+              "DocumentMoniker": "D:\\6. L\u1EACP TR\u00CCNH \u1EE8NG D\u1EE4NG DOANH NGHI\u1EC6P TRONG .NET\\SOLID_Product_DoCongMinh\\DoCongMinh_api\\DoCongMinh_api\\Validators\\ProductUpdateDtoValidator.cs",
+              "RelativeDocumentMoniker": "DoCongMinh_api\\Validators\\ProductUpdateDtoValidator.cs",
+              "ToolTip": "D:\\6. L\u1EACP TR\u00CCNH \u1EE8NG D\u1EE4NG DOANH NGHI\u1EC6P TRONG .NET\\SOLID_Product_DoCongMinh\\DoCongMinh_api\\DoCongMinh_api\\Validators\\ProductUpdateDtoValidator.cs",
+              "RelativeToolTip": "DoCongMinh_api\\Validators\\ProductUpdateDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T14:01:06.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\6. L\u1EACP TR\u00CCNH \u1EE8NG D\u1EE4NG DOANH NGHI\u1EC6P TRONG .NET\\SOLID_Product_DoCongMinh\\DoCongMinh_api\\DoCongMinh_api\\Program.cs",
+              "RelativeDocumentMoniker": "DoCongMinh_api\\Program.cs",
+              "ToolTip": "D:\\6. L\u1EACP TR\u00CCNH \u1EE8NG D\u1EE4NG DOANH NGHI\u1EC6P TRONG .NET\\SOLID_Product_DoCongMinh\\DoCongMinh_api\\DoCongMinh_api\\Program.cs",
+              "RelativeToolTip": "DoCongMinh_api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T13:58:03.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductCreateDtoValidator.cs",
+              "DocumentMoniker": "D:\\6. L\u1EACP TR\u00CCNH \u1EE8NG D\u1EE4NG DOANH NGHI\u1EC6P TRONG .NET\\SOLID_Product_DoCongMinh\\DoCongMinh_api\\DoCongMinh_api\\Validators\\ProductCreateDtoValidator.cs",
+              "RelativeDocumentMoniker": "DoCongMinh_api\\Validators\\ProductCreateDtoValidator.cs",
+              "ToolTip": "D:\\6. L\u1EACP TR\u00CCNH \u1EE8NG D\u1EE4NG DOANH NGHI\u1EC6P TRONG .NET\\SOLID_Product_DoCongMinh\\DoCongMinh_api\\DoCongMinh_api\\Validators\\ProductCreateDtoValidator.cs",
+              "RelativeToolTip": "DoCongMinh_api\\Validators\\ProductCreateDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T13:58:22.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\6. L\u1EACP TR\u00CCNH \u1EE8NG D\u1EE4NG DOANH NGHI\u1EC6P TRONG .NET\\SOLID_Product_DoCongMinh\\DoCongMinh_api\\DoCongMinh_api\\appsettings.json",
+              "RelativeDocumentMoniker": "DoCongMinh_api\\appsettings.json",
+              "ToolTip": "D:\\6. L\u1EACP TR\u00CCNH \u1EE8NG D\u1EE4NG DOANH NGHI\u1EC6P TRONG .NET\\SOLID_Product_DoCongMinh\\DoCongMinh_api\\DoCongMinh_api\\appsettings.json",
+              "RelativeToolTip": "DoCongMinh_api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-06T13:57:36.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\6. L\u1EACP TR\u00CCNH \u1EE8NG D\u1EE4NG DOANH NGHI\u1EC6P TRONG .NET\\SOLID_Product_DoCongMinh\\DoCongMinh_api\\DoCongMinh_api\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "DoCongMinh_api\\Models\\Product.cs",
+              "ToolTip": "D:\\6. L\u1EACP TR\u00CCNH \u1EE8NG D\u1EE4NG DOANH NGHI\u1EC6P TRONG .NET\\SOLID_Product_DoCongMinh\\DoCongMinh_api\\DoCongMinh_api\\Models\\Product.cs",
+              "RelativeToolTip": "DoCongMinh_api\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T13:56:56.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductMappingExtensions.cs",
+              "DocumentMoniker": "D:\\6. L\u1EACP TR\u00CCNH \u1EE8NG D\u1EE4NG DOANH NGHI\u1EC6P TRONG .NET\\SOLID_Product_DoCongMinh\\DoCongMinh_api\\DoCongMinh_api\\Mappings\\ProductMappingExtensions.cs",
+              "RelativeDocumentMoniker": "DoCongMinh_api\\Mappings\\ProductMappingExtensions.cs",
+              "ToolTip": "D:\\6. L\u1EACP TR\u00CCNH \u1EE8NG D\u1EE4NG DOANH NGHI\u1EC6P TRONG .NET\\SOLID_Product_DoCongMinh\\DoCongMinh_api\\DoCongMinh_api\\Mappings\\ProductMappingExtensions.cs",
+              "RelativeToolTip": "DoCongMinh_api\\Mappings\\ProductMappingExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T13:56:43.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductUpdateDto.cs",
+              "DocumentMoniker": "D:\\6. L\u1EACP TR\u00CCNH \u1EE8NG D\u1EE4NG DOANH NGHI\u1EC6P TRONG .NET\\SOLID_Product_DoCongMinh\\DoCongMinh_api\\DoCongMinh_api\\DTOs\\ProductUpdateDto.cs",
+              "RelativeDocumentMoniker": "DoCongMinh_api\\DTOs\\ProductUpdateDto.cs",
+              "ToolTip": "D:\\6. L\u1EACP TR\u00CCNH \u1EE8NG D\u1EE4NG DOANH NGHI\u1EC6P TRONG .NET\\SOLID_Product_DoCongMinh\\DoCongMinh_api\\DoCongMinh_api\\DTOs\\ProductUpdateDto.cs",
+              "RelativeToolTip": "DoCongMinh_api\\DTOs\\ProductUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T13:56:41.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductQueryParams.cs",
+              "DocumentMoniker": "D:\\6. L\u1EACP TR\u00CCNH \u1EE8NG D\u1EE4NG DOANH NGHI\u1EC6P TRONG .NET\\SOLID_Product_DoCongMinh\\DoCongMinh_api\\DoCongMinh_api\\DTOs\\ProductQueryParams.cs",
+              "RelativeDocumentMoniker": "DoCongMinh_api\\DTOs\\ProductQueryParams.cs",
+              "ToolTip": "D:\\6. L\u1EACP TR\u00CCNH \u1EE8NG D\u1EE4NG DOANH NGHI\u1EC6P TRONG .NET\\SOLID_Product_DoCongMinh\\DoCongMinh_api\\DoCongMinh_api\\DTOs\\ProductQueryParams.cs",
+              "RelativeToolTip": "DoCongMinh_api\\DTOs\\ProductQueryParams.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T13:56:38.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\6. L\u1EACP TR\u00CCNH \u1EE8NG D\u1EE4NG DOANH NGHI\u1EC6P TRONG .NET\\SOLID_Product_DoCongMinh\\DoCongMinh_api\\DoCongMinh_api\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "DoCongMinh_api\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\6. L\u1EACP TR\u00CCNH \u1EE8NG D\u1EE4NG DOANH NGHI\u1EC6P TRONG .NET\\SOLID_Product_DoCongMinh\\DoCongMinh_api\\DoCongMinh_api\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "DoCongMinh_api\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T13:51:31.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductCreateDto.cs",
+              "DocumentMoniker": "D:\\6. L\u1EACP TR\u00CCNH \u1EE8NG D\u1EE4NG DOANH NGHI\u1EC6P TRONG .NET\\SOLID_Product_DoCongMinh\\DoCongMinh_api\\DoCongMinh_api\\DTOs\\ProductCreateDto.cs",
+              "RelativeDocumentMoniker": "DoCongMinh_api\\DTOs\\ProductCreateDto.cs",
+              "ToolTip": "D:\\6. L\u1EACP TR\u00CCNH \u1EE8NG D\u1EE4NG DOANH NGHI\u1EC6P TRONG .NET\\SOLID_Product_DoCongMinh\\DoCongMinh_api\\DoCongMinh_api\\DTOs\\ProductCreateDto.cs",
+              "RelativeToolTip": "DoCongMinh_api\\DTOs\\ProductCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T13:56:23.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
